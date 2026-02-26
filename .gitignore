@@ -1,5 +1,24 @@
+# Python artifacts
 .ipynb_checkpoints/
 __pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Saved ML models
 *.joblib
+
+# Environment variables
 .env
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Large data files — excluded to keep repo lightweight
+# Issue 13 FIX: *.xlsx files can be several MB; store them outside git or use Git LFS
+Tourism Dataset/
